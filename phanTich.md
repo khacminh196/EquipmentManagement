@@ -12,7 +12,7 @@
 		*Đăng nhập hệ thống*
 		*Tìm kiếm thiết bị theo loại thiết bị, loại thiết bị, id thiết bị*
 		*Duyệt các yêu cầu mượn thiết bị*
-		*Xử lý các báo cáo thiết bị hỏng hóc, bảo dưỡng thiết bị, đánh id cho những thiết bị mượn*
+		*Xử lý các báo cáo thiết bị hỏng hóc của employee*
 		*Xem chi tiết các thiết bị*
 		*Thu hồi các thiết bị không sử dụng nữa*
 		*Cấp thiết bị mặc định ban đầu cho nhân viên.*
@@ -32,3 +32,9 @@
 		*Gửi đơn yêu cầu mượn thiết bị (Loại thiết bị)*
 		*Báo cáo thiết bị hỏng hóc (Nguyên nhân, ngày hỏng)*
 		*Quản lý thiết bi đang sử dụng*
+
+# Quy trình:
+	
+	1. Admin gửi yêu cầu nhập thiết bị lên Supper Admin, khi đc đồng ý Admin nhập thiết bị vào kho
+	2. Khi có nhân viên mới, Admin sẽ cấp thiết bị mặc định cho nhân viên ( máy tính, ghế )
+	3. Khi có báo cáo về hỏng hóc, Admin xác nhận và tạo phiếu sửa thiết bị, cung cấp thiết bị khác cho người bị hỏng máy
